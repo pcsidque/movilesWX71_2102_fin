@@ -4,7 +4,7 @@ import androidx.room.*
 
 @Dao
 interface ContactDao {
-    @Query("SELECT * FROM Contact")
+    @Query("SELECT * FROM contact")
     fun getAll(): List<Contact>
 
     @Insert
