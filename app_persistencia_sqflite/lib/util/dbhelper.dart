@@ -18,7 +18,7 @@ class DbHelper{
     if (db == null)
     {
       db = await openDatabase(join(await getDatabasesPath(),
-          'shopping_verfin.db'),
+          'shopping_miprueba.db'),
           onCreate: (database, version){
             database.execute(
                 'CREATE TABLE lists(id INTEGER PRIMARY KEY, '
